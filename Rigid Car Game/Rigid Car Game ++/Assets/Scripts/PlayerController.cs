@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Tooltip("Rigid body of the car to make car go vroom")]
+    [SerializeField] Rigidbody playerRb;
 
-    // Update is called once per frame
-    void Update()
-    {
+    private void Update() {
         
     }
 }
